@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Montserrat:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    top: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.creditos{
+    display: block;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: italic;
+}
+.creditos:hover{
+    text-decoration: underline;
+}
+.imoveis-doc{
+    border-top-left-radius: 1vw;
+    display: inline-flex;
+    background-color: green;
+    padding: 0.7vw 3.5vw;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+    text-decoration: none;
+    margin: -1vw;
+}
+.imoveis-doc:hover{
+background-color: rgb(12, 170, 12);
+}
+.imoveis-anexar{
+    border-top-right-radius: 1vw;
+    display: inline-flex;
+    background-color: green;
+    padding: 0.7vw 3.5vw;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 2vw;
+}
+.imoveis-anexar:hover{
+background-color: rgb(12, 170, 12);
+}
+.imoveis-info{
+    margin: 2vw;
+}
+.img-imovel{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 1.5vw;
+}
+.imobi{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.brasil{
+    text-decoration: none;
+    color: yellow;
+}
+header{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(12, 12, 117);
+    color: white;
+}
+
+input[type="text"]{
+    position: relative;
+  width: 350px;
+  height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: 0.1vw solid rgb(12, 12, 117);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    font-style: italic;
+    background-color: #e5e5e5;
+}
+input[type="text"]:hover{
+    background-color: rgba(12, 12, 117, 0.144) ;
+}
+input[type="submit"]{
+    position: relative;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border: 0.1vw solid rgb(12, 12, 117);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    background-color: #e5e5e5;
+    color: black;
+    cursor: pointer;
+    font-style: italic;
+}
+input[type="submit"]:hover{
+    background-color: rgb(12, 12, 117);
+    color: white;
+}
+.visualizar{
+    position: relative;
+    background-color: rgb(5, 158, 158);
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding-top: 5px ;
+    margin: 3px;
+    text-decoration: none;
+     border-radius: 2vw;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+.excluir-res{
+    position: relative;
+    background-color: rgb(187, 58, 58);
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding-top: 5px ;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+.visualizar:hover{
+    background-color: rgb(25, 107, 107);
+}
+.excluir-res:hover{
+    background-color: rgb(128, 39, 39);
+}
+.imo-desc{
+    position: relative;
+    display: block;
+    width: 30vw;
+    padding: 0.5vw;
+    font-family: 'Gentium Plus', serif;
+}
+.imo-titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.imo-preco{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #e5e5e5;
+}
+.imo-id{
+    font-family: 'Gentium Plus', serif;
+    color: black;
+}
+.editar-res{
+    position: relative;
+    background-color: rgb(133, 207, 104);
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding-top: 5px ;
+    margin: 3px;
+    text-decoration: none;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+.editar-res:hover{
+    background-color: rgb(72, 124, 51);
+}
+@media  (max-width:800px) {
+
+.imo-desc{
+    width: 50vw;
+}
+    
+}

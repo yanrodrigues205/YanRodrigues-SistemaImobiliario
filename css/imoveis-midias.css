@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Montserrat:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    margin:0;
+}
+body{
+ background-color: rgb(12, 12, 117);
+}
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+}
+.midia-arquivo{
+    position: relative;
+    width: 30vw;
+    height: 35vw;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+
+input[type='text']{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    border: none;
+}
+.alterar{
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    position: relative;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+.deletar{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(143, 6, 6);
+}
+input[type='number']{
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    font-size: 15px;
+    height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    border: none;
+    text-align: center;
+}
+input[type='date']{
+    border-radius: 30px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: none;
+}
+input[type='submit']:hover{
+    color: white;
+    background-color: rgb(30, 155, 30);
+}
+.deletar:hover{
+    background-color: red;
+}        
+.imoveis-anexar{
+    position: relative;
+    top:20px ;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(182, 182, 0);
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 30px;
+}
+.imoveis-anexar:hover{
+    background-color: yellow;
+}
+.botao{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    border-radius: 30px;
+    border:none;
+    margin-left: 10px;
+}

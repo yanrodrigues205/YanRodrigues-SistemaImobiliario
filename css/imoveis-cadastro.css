@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital@1&family=Montserrat:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    top: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(12, 12, 117);;
+}
+.voltar{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.tudo-cadastroimoveis{
+    position: relative;
+    top:10vw;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: white;
+    font-style: italic;
+}
+input[type='text']{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    background-color: #e5e5e5;
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-style: italic;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+input[type='number']{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #e5e5e5;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    font-style: italic;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+input[type='submit']{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #e5e5e5;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+    font-style: italic;
+    text-align: center;
+    border-radius: 30px;
+}
+input[type='file']{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: rgb(62, 172, 62);
+    border: rgb(62, 172, 62);
+    color: white;
+}
+.foto-imovel{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+.imovel-sucesso{
+    position: relative;
+    background-color: rgba(0, 128, 0, 0.548);
+    border: 1px solid green;
+    padding: 30px 30px;
+    color: white;
+    top: -80px;
+    text-decoration: none;
+}
+.imovel-erro{
+    position: relative;
+    background-color: rgba(128, 0, 0, 0.548);
+    border: 1px solid rgb(128, 0, 0);
+    padding: 30px 30px;
+    color: white;
+    top: -80px;
+    text-decoration: none;
+}
+@media (max-width:500px) {
+    .tudo-cadastroimoveis{
+        top: 35vw;
+    }
+    input[type='text']{
+        width: 300px;
+    }
+    input[type='number']{
+        width: 300px;
+    }
+    input[type='submit']{
+        width: 300px;
+    }
+}
